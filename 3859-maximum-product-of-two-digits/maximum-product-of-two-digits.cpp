@@ -9,7 +9,7 @@ public:
 
             int d = n % 10;
 
-            if (d > mx1) {
+            if (d >= mx1) {
                 mx2 = mx1;
                 mx1 = d;
             } else if (d > mx2) {

@@ -11,7 +11,6 @@ public:
             if (numbers[i] == target) {
                 target_indices.push_back(i);
             }
-
         }
 
         return target_indices;
